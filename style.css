@@ -1,0 +1,135 @@
+body {
+    background-color: #2f5a3d; 
+    margin: 0;
+    padding: 0;
+    
+}
+
+.guadrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 25px;
+}
+
+.pinturaaa {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: 5px solid white; 
+    border-radius: 50%;
+    background: url(./WhatsApp\ Image\ 2024-09-19\ at\ 10.27.48.jpeg);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.legendata {
+    color: #333; 
+    text-transform: capitalize;
+    text-align: center; 
+    
+}
+.legenda {
+    color: #000000;
+    text-align: left; 
+    margin: 25px;
+}
+.legenda h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+
+.contaider {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.feed {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.iconi {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(29, 28, 28, 0.2); 
+    overflow: hidden;
+}
+
+.iconi:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background: rgba(43, 33, 182, 0.3); 
+}
+
+.verde {
+    background: #28a745;
+}
+
+.azul {
+    background: #007bff;
+}
+
+.amarelo {
+    background: #ffc107;
+}
+
+.vermelho {
+    background: #dc3545;
+}
+
+.cinza {
+    background: #6c757d;
+}
+
+@media (max-width: 768px) {
+    .contaiderrr {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.conteudoo {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; 
+   }
+}
+
+@media (max-width: 480px) {
+    .legenda h2 {
+        font-size: 20px;
+    }
+    .guadrado {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin: 25px;
+    }
+    .feed {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+}
+
